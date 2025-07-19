@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Sheet CRUD App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>จัดการข้อมูล Google Sheet</h1>
+  <form id="dataForm">
+    <input type="text" id="item" placeholder="Item" required>
+    <input type="text" id="product" placeholder="Product" required>
+    <input type="number" id="qty" placeholder="Qty" required>
+    <button type="submit">เพิ่มข้อมูล</button>
+  </form>
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Product</th>
+        <th>Qty</th>
+        <th>จัดการ</th>
+      </tr>
+    </thead>
+    <tbody id="dataBody"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
