@@ -6,7 +6,7 @@ const port = 3000;
 app.use(express.json());
 app.use(express.static('public'));
 const auth = new google.auth.GoogleAuth({
-  keyFile: 'sheet-crud-service-account.json',
+  keyFile: 'sparepart-77308-a18d52f2e6b3.json',
   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });
 const sheets = google.sheets({ version: 'v4', auth });
