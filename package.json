@@ -1,0 +1,13 @@
+{
+  "name": "google-sheet-crud-app",
+  "version": "1.0.0",
+  "description": "CRUD App with Google Sheets API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^92.0.0"
+  }
+}
